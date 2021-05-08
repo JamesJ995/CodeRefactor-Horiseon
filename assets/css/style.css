@@ -8,10 +8,12 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Changes page header color. */
 nav h1 .seo {
     color: #d9dcd6;
 }
 
+/* Formats the navigation bar. */
 nav {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -19,11 +21,13 @@ nav {
     color: #ffffff;
 }
 
+/* Navigation bar headers. */
 nav h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Selects the navigation list items and sets format and font characteristics. */
 nav ul {
     list-style-type: none;
     padding-top: 15px;
@@ -38,11 +42,13 @@ nav ul li {
     margin-left: 25px;
 }
 
+/* Sets link color and removes decorations, such as underlines. */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Main page image, use css to include the image, changed the element to the semantic element "figure." */
 figure {
     height: 800px;
     width: 100%;
@@ -52,12 +58,14 @@ figure {
     background-position: center;
 }
 
+/* Sets parameters for the main page content. */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Each of these three class selectors format the three main large pieces of content on the page. */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -85,6 +93,7 @@ figure {
     color: #ffffff;
 }
 
+/* These three selectors format the images in the main page content. */
 .search-engine-optimization img {
     max-height: 200px;
     float: left;
@@ -103,15 +112,18 @@ figure {
     margin-right: 25px;
 }
 
+/* Format headers in main page content. */
 section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* change font-size of main page content. */
 p {
     font-size: 16px;
 }
 
+/* Gives parameters for the aside on the right of the page. Divider was changed to the semantic tag "aside" */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -123,44 +135,27 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* Formats each of the three aside pieces to change color and margin. */
+.benefits section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
 
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead img {
+/* Format all three aside images. */
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+/* This selector only affects the aside headers. */
 h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* changed div with class "footer" to the semantic tag "footer." */
 footer {
     padding: 30px;
     clear: both;
